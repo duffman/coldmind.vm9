@@ -1,0 +1,13 @@
+cat makes a sound | tweety makes a sound (tweet)
+cat (4 legs) | bird: tweety (2 legs)
+POLLY Animal(cat) Animal(POLLY) 2
+true true false true
+Animal { name: 'cat', legs: 4 } Bird { name: 'POLLY', legs: 2, canFly: true }
+true 2 3
+[ 'name', 'legs', 'canFly' ] function Animal Bird
+Point { x: 4, y: 6 } Point { x: 0, y: 0 } computed
+Derived.init, field = undefined
+true
+before super: ReferenceError
+Base.init
+[class Anon] [class Ext extends Anon] Anon Ext {}

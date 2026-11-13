@@ -1,0 +1,21 @@
+1 2 default { d: 4, e: 5 }
+1 10 [ 4, 5 ]
+2 1
+second
+ann/30/1/2,3
+{ '0': 'h', '1': 'i', a: 1, b: 3, c: 4 }
+[ 'a', 'b', 'c', 1, 2, 3 ] 5 [ undefined, 1 ]
+10
+dynamic value
+{ first: 'A', second: 'B' }
+5
+TypeError
+1 a
+2 none
+{
+  '1': 'one',
+  method: [Function: method],
+  g: [Getter],
+  computed: true,
+  shorthand: 1
+} m getter

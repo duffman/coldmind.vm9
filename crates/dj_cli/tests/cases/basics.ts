@@ -1,0 +1,28 @@
+// Operators, coercion, number formatting, typeof, equality.
+console.log(1 + 2, "1" + 2, 1 + "2", 3 - "1", "6" / "2", 7 % -3, -7 % 3, 2 ** 10, 2 ** -1);
+console.log(0.1 + 0.2, 1 / 3, 1e21, 1e-7, 123456789012345680000, -0, 0 * -1, 5 / 0, -5 / 0, 0 / 0);
+console.log(1 << 31, -1 >>> 0, -1 >> 28, 5 & 3, 5 | 3, 5 ^ 3, ~5, 1 << 33);
+console.log(null == undefined, null === undefined, NaN == NaN, "1" == 1, 0 == "", "0" == false, [] == false, null == 0);
+console.log(typeof 1, typeof "s", typeof true, typeof undefined, typeof null, typeof {}, typeof [], typeof (() => 1), typeof Symbol());
+console.log("b" > "a", "B" > "a", "10" < "9", 10 < 9, "10" < 9, null >= 0, undefined >= 0);
+console.log(Number("  12  "), Number(""), Number("0x1f"), Number("1e3"), Number("12px"), Number(null), Number(undefined), Number([5]), Number(true));
+console.log(String(123), String(-0), String(null), String([1, [2, 3]]), String({}), `${1 + 1} and ${"x"}`);
+console.log(parseInt("42px"), parseInt("0x10"), parseInt("101", 2), parseFloat("3.5e2xyz"), parseFloat(".5"), parseInt(""), isNaN("abc"));
+console.log((255).toString(16), (255).toString(2), (0.5).toString(2), (-7.25).toString(8), (1.005).toFixed(2), (2.5).toFixed(0), (1234.5678).toFixed(1), (-1.5).toFixed(0));
+console.log(!!"", !!"0", !!0, !!NaN, !![], !!{}, !!-0);
+let a = 5;
+a += 2; a *= 3; a -= 1; a /= 4; a **= 2;
+console.log(a);
+let s: any = null;
+s ??= "init";
+let t: any = 0;
+t ||= 9;
+let u: any = 1;
+u &&= 7;
+console.log(s, t, u, s ?? "no", undefined ?? "yes", 0 || "zero", 0 ?? "nn");
+let i = 0;
+console.log(i++, i, ++i, i--, --i);
+console.log([1, 2, 3] + "", {} + "", [] + [], true + 1, null + 1, undefined + 1);
+console.log(Math.max(), Math.min(), Math.max(1, NaN, 3), Math.round(2.5), Math.round(-2.5), Math.round(0.49999999999999994), Math.sign(-3), Math.trunc(-4.7));
+console.log(Number.MAX_SAFE_INTEGER, Number.EPSILON > 0, Number.isInteger(5.0), Number.isSafeInteger(2 ** 53), 0.1 * 3, 9007199254740993);
+console.log(Object.is(-0, 0), Object.is(NaN, NaN), [NaN].includes(NaN), [NaN].indexOf(NaN));

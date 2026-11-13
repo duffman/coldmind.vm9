@@ -1,0 +1,52 @@
+[ 1, 10, 2, 33, 5 ] [ 1, 2, 5, 10, 33 ] 2 false true -1
+[ 1, 10, 2 ] [ 2, 33 ] [ 2, 3 ] [
+   5, 1, 10, 2,
+  33, 6,  7
+]
+[ '5', '1', '10', '2', '33' ] [ 5, 10, 33 ] 10 -1 2 -1
+true true 51 ,33,2,10,1,5
+[ 1, 2, [ 3, [ 4 ] ] ] [ 1, 2, 3, 4 ] [ 1, 2, 2, 4 ]
+[ 0, 1, 4 ] [ 7, 8 ] true [ 0, 0, 0 ] [ 1, 9, 9 ]
+[ 2, 1, 3 ] a,b 1---2 3 { value: 0, done: false }
+[ 4, 5, 3, 4, 5 ] 2 1,2,3 1,2,3
+adbc [ 1, 2, 3 ] [ 3, 2, 1 ] [ 1, 9, 3 ]
+[ 0, <3 empty items>, 5 ] 5 6 6 1 5 [ 0, <3 empty items>, 5 ]
+HELLO, WORLD hello, world World llo,  4 8 o 72 d
+[ 'Hello', 'World' ] [
+  'H', 'e', 'l', 'l',
+  'o', ',', ' ', 'W',
+  'o', 'r', 'l', 'd'
+] [ 'a', 'b' ] HeLlo, World HeLLo, WorLd true false
+pad| abx x--- ababab true Hi 128512 😀
+true true true false -1 2x ABC
+Hello, World!? 6 % a	b\n "q\"uote\n"
+0.30000000000000004 0.3333333333333333 1e+21 1e-7 123456789012345680000 -0 true false 9007199254740992 9007199254740992 2 -2 Infinity -Infinity NaN
+ff 11111111 0.1 3.14 1.00 1235 0.0 42 0 31 1000 NaN
+42 255 16 3.14 0.5 true false 9007199254740991 true
+-Infinity 1 3 -2 0 -2 2 -1 -1 2 4 3 5 3.141592653589793
+12 12 2  [object Object] 1 NaN 3 0 0 NaN false true true false false true
+object undefined number string object object function symbol 3 15 4 -6 -2147483648 4294967295 -4
+[ 'a', 'b' ] [ 1, { c: 2 } ] [ [ 'a', 1 ], [ 'b', { c: 2 } ] ] { a: 1, b: { c: 2 }, d: 3 } { x: 1, y: 2 }
+true false true true false [ '0', '1', 'length' ]
+{} 42 [] {"value":42,"writable":false,"enumerable":false,"configurable":false}
+hi from proto true true [object Array] [object Null] Symbol(desc) d
+{"a":[1,"two",null,null,null],"c":0,"d":{"e":null,"f":null}}
+{
+  "z": 1,
+  "y": [
+    1,
+    {
+      "x": 2
+    }
+  ]
+}
+[
+--1,
+--2
+] {"a":1,"c":3} {"a":10}
+"custom" " \u0007" undefined null
+{ a: [ 1, 2, { b: null } ], c: 'A' } 1000 s 2
+one string one object nan 4 false true 3 [ '1', {}, NaN ]
+4 true [ 1, 2, '2', NaN ] true [ 2, 2 ]
+[ 'string one', 'nan' ]
+true true false false true null false

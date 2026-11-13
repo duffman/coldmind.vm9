@@ -1,0 +1,18 @@
+3 12 12 2 3 1 -1 1024 0.5
+0.30000000000000004 0.3333333333333333 1e+21 1e-7 123456789012345680000 -0 -0 Infinity -Infinity NaN
+-2147483648 4294967295 -1 1 7 6 -6 2
+true false false true true true true false
+number string boolean undefined object object object function symbol
+true false true false false true false
+12 0 31 1000 NaN 0 NaN 5 1
+123 0 null 1,2,3 [object Object] 2 and x
+42 16 5 350 0.5 NaN true
+ff 11111111 0.1 -7.2 1.00 3 1234.6 -2
+false true false false true true false
+25
+init 9 7 init yes zero 0
+0 1 2 2 0
+1,2,3 [object Object]  2 1 NaN
+-Infinity Infinity NaN 3 -2 0 -1 -4
+9007199254740991 true true false 0.30000000000000004 9007199254740992
+false true true -1

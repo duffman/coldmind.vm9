@@ -1,0 +1,33 @@
+pair 0 0
+pair 1 0
+n = 0
+one+two two default+three three default+three
+[ '2', '10', 'b', 'c' ]
+[ 'own', 'fromProto' ]
+v 1
+v 2
+iterator closed at 4
+[ 1, 2, 3, 4, 5 ] [ 10, 20, 30, 40, 50 ]
+1 2 [ 3, 4, 5 ]
+iterator closed at 2
+1
+iterator closed at 3
+caught stop
+iterator closed at 3
+2
+h 1
+é 1
+l 1
+l 1
+o 1
+👍 2
+x 1
+y 2
+set 3
+set 4
+0 a
+1 b
+count 3
+[ 1, 2, 3, 4 ]
+vi after loop 2
+3 undefined

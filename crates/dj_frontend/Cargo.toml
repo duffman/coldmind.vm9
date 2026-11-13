@@ -1,0 +1,14 @@
+[package]
+name = "dj_frontend"
+description = "TypeScript frontend: parse with oxc, check, erase types, lower to dj_ir"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+dj_ir.workspace = true
+oxc_allocator.workspace = true
+oxc_ast.workspace = true
+oxc_parser.workspace = true
+oxc_span.workspace = true
+oxc_syntax.workspace = true

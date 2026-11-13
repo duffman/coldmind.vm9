@@ -1,0 +1,10 @@
+[package]
+name = "dj_codegen"
+description = "IR → bytecode: block layout, register allocation, instruction selection, debug tables"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+dj_ir.workspace = true
+dj_bytecode.workspace = true

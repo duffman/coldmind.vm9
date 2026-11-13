@@ -1,0 +1,10 @@
+[package]
+name = "dj_debug"
+description = "DAP-shaped debug session over the dj_vm debugger interface"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+dj_bytecode.workspace = true
+dj_vm.workspace = true

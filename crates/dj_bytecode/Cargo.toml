@@ -1,0 +1,8 @@
+[package]
+name = "dj_bytecode"
+description = "Bytecode format: instruction set, module container, debug metadata, serializer, validator, disassembler"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]

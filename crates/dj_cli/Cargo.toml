@@ -1,0 +1,23 @@
+[package]
+name = "dj_cli"
+description = "djungle command-line driver and pipeline helpers (TypeScript -> IR -> bytecode -> VM)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "djungle"
+path = "src/main.rs"
+
+[dependencies]
+dj_ir.workspace = true
+dj_frontend.workspace = true
+dj_bytecode.workspace = true
+dj_codegen.workspace = true
+dj_vm.workspace = true
+
+[dev-dependencies]
+dj_debug.workspace = true

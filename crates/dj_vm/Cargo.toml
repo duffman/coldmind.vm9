@@ -1,0 +1,10 @@
+[package]
+name = "dj_vm"
+description = "Bytecode virtual machine: interpreter, heap + mark-sweep GC, async scheduling, builtins, debugger interface"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+dj_bytecode.workspace = true
+indexmap.workspace = true

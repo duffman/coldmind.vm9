@@ -1,0 +1,17 @@
+2 1
+[ 0, 1, 2 ]
+[ 3, 3, 3 ]
+[ 'a', 'b', 'x', 'y' ]
+112 113
+hoisted undefined
+true Cannot access 'tdz' before initialization
+tdz via closure: ReferenceError
+ok
+3628800
+block
+outer
+1 2 25
+2
+[ 'obj' ]
+[ 100, 2, 102 ] [ 100, 5, 105 ]
+[ 1, 0, [] ] [ 1, 2, [ 2, 3 ] ]

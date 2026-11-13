@@ -1,0 +1,25 @@
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[workspace.dependencies]
+dj_ir = { path = "crates/dj_ir" }
+dj_frontend = { path = "crates/dj_frontend" }
+dj_bytecode = { path = "crates/dj_bytecode" }
+dj_codegen = { path = "crates/dj_codegen" }
+dj_vm = { path = "crates/dj_vm" }
+dj_debug = { path = "crates/dj_debug" }
+indexmap = "2"
+oxc_allocator = "0.157"
+oxc_ast = "0.157"
+oxc_parser = "0.157"
+oxc_span = "0.157"
+oxc_syntax = "0.157"
+
+[profile.release]
+debug = 1

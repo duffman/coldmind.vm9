@@ -1,0 +1,32 @@
+end of script
+all: [ 'x', 'plain', 'p' ]
+race: fast
+allSettled: [ 'no', 'yes' ]
+any: AggregateError 2
+any ok: winner
+order: [ 1, 2, 3 ]
+deferred: 99
+thenable value
+true 1
+api/users
+42
+interval ticks: 3
+log: [
+  'sync',
+  'a1 start',
+  'microtask',
+  'then 1',
+  'a1 after await',
+  'tryAwait finally',
+  'then 2',
+  'a1 result',
+  'caught: async boom',
+  'handled TypeError',
+  'timeout 0',
+  'timeout 5',
+  'timeout 10'
+]
+nested
+reason: string reason
+recovered x
+main done

@@ -1,0 +1,32 @@
+finally runs
+try
+f2 finally
+caught boom
+2
+body 0
+finally 0
+finally 1
+body 2
+finally 2
+finally 3
+done
+inner finally
+outer caught TypeError inner
+rethrown same: true
+true true ValidationError bad input email ValidationError: bad input
+{ custom: true }
+optional catch binding
+Error:e:true TypeError:t:true RangeError:r:true ReferenceError:f:true SyntaxError:s:true
+root true no new
+stack overflow -> RangeError Maximum call stack size exceeded
+TypeError Cannot read properties of undefined (reading 'foo')
+TypeError Cannot set properties of null (setting 'foo')
+TypeError
+ctor failed
+frozen write: TypeError
+const assign: TypeError
+Reduce of empty array with no initial value
+SyntaxError
+RangeError Invalid array length
+ReferenceError undefinedVariable is not defined
+r t1,f1,c2,f2
